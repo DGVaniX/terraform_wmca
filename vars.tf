@@ -1,6 +1,7 @@
 variable "is_dev" {
   description = "Is this a dev build? (yes/no)"
   type        = string
+  default     = "yes"
 }
 
 variable "instance_count" {
