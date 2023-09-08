@@ -1,7 +1,8 @@
-name: demo_execute_001n: workflow_dispatch
+name: demo_execute_001 
+on: workflow_dispatch
 
 jobs:
-  first-job: firstJob
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - name: hello
